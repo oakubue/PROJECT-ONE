@@ -24,3 +24,6 @@ clear
 #this command reveals the present directory
 echo "you are currently working in the directory shown below"
 pwd
+
+clear
+
