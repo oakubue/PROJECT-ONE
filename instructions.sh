@@ -27,3 +27,7 @@ pwd
 
 clear
 
+date >> file2
+
+date
+
