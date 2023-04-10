@@ -1,5 +1,8 @@
 #!/bin/bash
 
+User='whoami'
+if [ $User = ubuntu ]
+then
 #script is meant to gather information from users and use the info to creat a file for user
 
 #Greetings
@@ -79,6 +82,9 @@ echo
 echo
 echo
 
+else
+	echo "user no authorised. Goodbye"
+fi
 
 echo Thank you
 
