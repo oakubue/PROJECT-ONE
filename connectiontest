@@ -1,0 +1,16 @@
+PING www.google.com (172.217.0.164) 56(84) bytes of data.
+64 bytes from yyz08s10-in-f164.1e100.net (172.217.0.164): icmp_seq=1 ttl=104 time=17.5 ms
+64 bytes from yyz08s10-in-f164.1e100.net (172.217.0.164): icmp_seq=2 ttl=104 time=17.7 ms
+64 bytes from yyz08s10-in-f164.1e100.net (172.217.0.164): icmp_seq=3 ttl=104 time=17.7 ms
+
+--- www.google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 17.523/17.631/17.688/0.076 ms
+
+Hit:1 http://us-east-2.ec2.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Get:5 http://us-east-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2464 kB]
+Fetched 2686 kB in 1s (2318 kB/s)
+Reading package lists...
